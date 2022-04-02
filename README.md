@@ -1,6 +1,6 @@
 # nmap_tabulate_parser
 
-`python3 nmap_tabulate_parser.py -f nmap`
+`python3 nmap_tabulate_parser.py -f nmap.xml`
 
 ```
 IP               Port  Protocol    State     Service
@@ -16,7 +16,7 @@ IP               Port  Protocol    State     Service
 192.168.0.1       110  tcp         closed    pop3
 ```
 
-`python3 nmap_tabulate_parser.py -f nmap --open`
+`python3 nmap_tabulate_parser.py -f nmap.xml --open`
 
 ```
 IP               Port  Protocol    State    Service
